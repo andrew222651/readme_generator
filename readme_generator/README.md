@@ -1,4 +1,4 @@
-# [`__init.py__`](__init__.py)
+# [`__init__.py`](__init__.py)
 
 this project contains only one file: `main.py`
 
