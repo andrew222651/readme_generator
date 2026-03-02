@@ -6,7 +6,7 @@ build-backend = "setuptools.build_meta"
 requires-python = ">=3.9,<4"
 name = "readme_generator"
 dependencies = [
-    "typer==0.12.*",
+    "typer==0.*",
 ]
 version = "0.0.0"
 
