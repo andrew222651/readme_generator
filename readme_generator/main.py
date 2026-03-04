@@ -21,7 +21,8 @@ def extract_docstring(file_path: Path) -> str:
 def generate_readme_content(directory: Path) -> str:
     init_file = directory / "__init__.py"
 
-    readme_content = "# [`__init__.py`](__init__.py)\n\n"
+    readme_content = "<!-- Auto-generated file -->\n\n"
+    readme_content += "# [`__init__.py`](__init__.py)\n\n"
     readme_content += extract_docstring(init_file) + "\n\n"
 
     children = sorted(directory.iterdir(), key=lambda p: p.name)
